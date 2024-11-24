@@ -1,0 +1,113 @@
+
+@charset "UTF-8";
+@font-face {
+  font-family: 'floratta';
+  src: url(FleurDeLeah-Regular.ttf);
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+body{
+  width: 100vw;
+  height: 100vh;
+background-image: url(floresfundos.jpg);
+}
+
+
+.Carrossel{
+  width: 900px; 
+margin-left: 320px;
+margin-top: -1%;
+}
+.container{
+  max-width: 900px;
+  margin: 0 auto;
+margin-top: 40px;
+}
+header{
+  width: 100%;
+  height: 45px;
+  background-color: rgb(105, 164, 128);
+  margin-top: 1%;
+
+}
+#logos{
+position: relative;
+z-index: 1000%;
+  margin-left: 2%;
+}
+#texto{
+  margin-left: 320px;
+  font-family:'floratta' ;
+  color: rgb(197, 39, 134);
+font-size: 150px;
+
+}
+#texto2{
+  margin-left: 320px;
+  font-family: 'Courier New', Courier, monospace;
+  color: rgb(197, 39, 134);
+font-size: 150px;
+margin-top: -4%;
+}
+
+h2{
+font-family:'Courier New', Courier, monospace;
+}
+h3{
+  font-family:'Courier New', Courier, monospace;
+  }
+
+  h4{
+    font-family:'Courier New', Courier, monospace;
+    }
+
+ .imagensdelicate{
+  display: flex;
+ }
+
+ .imagensintense{
+  display: flex;
+ }
+ .container{
+  margin-left:2%;
+  margin-top: -1%;
+ }
+
+.painel-body{
+  margin-top: -30%;
+ }
+
+ #button{
+  margin-left: 50%;
+ }
+
+ #florattaredcompra{
+  margin-left: 30%;
+ }
+#credito{
+  margin-left: 5%;
+}
+
+.buy-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.glyphicon {
+  font-size: 18px;
+  margin-right: 5px;
+  
+}
+
+#textovalor{
+  margin-left: 30%;
+  margin-top: -5%;
+  
+}
